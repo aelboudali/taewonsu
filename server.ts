@@ -14,6 +14,7 @@ config();
 
 const app = express();
 const port = process.env.PORT || 5000;
+console.log(process.env.R_SUB);
 
 // For parsing application/json
 app.use(express.json());
